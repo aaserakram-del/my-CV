@@ -14,7 +14,7 @@ export const profile = {
   ],
 
   // Put your photo in /public and update this path (e.g. '/me.jpg').
-  photo: '/public/profile.jpeg',
+  photo: '/profile.jpeg',
 
   // Put your CV in /public with this exact name, or change the path.
   cvUrl: '/Asser-Akram-CV.pdf',
