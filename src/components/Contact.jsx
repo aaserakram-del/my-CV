@@ -1,5 +1,5 @@
 import { profile } from '../data/site'
-import { GithubIcon, LinkedinIcon, MailIcon } from './Icons'
+import { GithubIcon, LinkedinIcon, MailIcon, PhoneIcon } from './Icons'
 import SectionHeading from './SectionHeading'
 import Reveal from './Reveal'
 
@@ -10,6 +10,13 @@ export default function Contact() {
       value: profile.email,
       href: `mailto:${profile.email}`,
       Icon: MailIcon,
+      external: false,
+    },
+    {
+      label: 'Phone',
+      value: profile.phone,
+      href: `tel:${profile.phone}`,
+      Icon: PhoneIcon,
       external: false,
     },
     {

@@ -21,6 +21,7 @@ export const profile = {
 
   // TODO: replace with your real links.
   email: 'aaserakram@gmail.com',
+  phone: "+201129296375",
   github: 'https://github.com/aaserakram-del',
   linkedin: 'https://www.linkedin.com/in/asser-leo-302299377/',
 }
